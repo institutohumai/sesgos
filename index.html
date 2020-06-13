@@ -17,7 +17,7 @@
   </head>
   <body></body>
   <script>
-  jsPsych.data.addProperties({test: 'sesgos'})
+  
   var bienvenida = {
     type: "html-button-response",
     stimulus: "<font size=5.5><p>¡Bienvenido!</p><p>En la siguiente prueba podrás explorar con nosotros algunas propiedades de la percepción.</p>"+
@@ -256,8 +256,10 @@ var academia = {
       {prompt: '¿Hacés alguna actividad extracurricular como hobbie o trabajo? ¿Cuál?', value: '', columns: 30, required:true},
       ],
     button_label: 'Continuar'}
-
-//timeline es la serie de pasos del experimento
+  
+  jsPsych.data.addProperties({test: 'sesgos'})
+ 
+  //timeline es la serie de pasos del experimento
   jsPsych.init({
     timeline: [bienvenida, consentimiento, pre_hist, historia, instruct_vid, video1,
     descripcion, video2, descripcion, colores, audio1, audio2, audio3, mate, empatia, 
