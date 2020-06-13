@@ -265,7 +265,7 @@ var academia = {
 
     on_finish: function() { $.ajax({
                         type: "POST",
-                        data: {'data' : JSON.stringify(jsPsych.data.get().json())},
+                        data: {'data' : jsPsych.data.get()},
                         url: "https://ihum.ai/data-server/postdata",
                         headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'},
