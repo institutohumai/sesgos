@@ -257,6 +257,7 @@ var academia = {
       ],
     button_label: 'Continuar'}
   
+  jsPsych.data.addProperties({test: 'sesgos'})
   
   //timeline es la serie de pasos del experimento
   jsPsych.init({
@@ -266,7 +267,7 @@ var academia = {
 
     on_finish: function() { $.ajax({
                         type: "POST",
-                        data: {'data' : jsPsych.data.get()},
+                        data: {'data' : jsPsych.data.get().json()},
                         url: "https://ihum.ai/data-server/postdata",
                         headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'},
