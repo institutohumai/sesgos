@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <html>
   <head>
-    <title>Mindspace</title>
+    <title>Sesgos</title>
     <link rel="icon" type="image/png" href="static/media/misc/favicon.ico">
     <link rel="stylesheet" href="static/jspsych/css/jspsych.css"></link>
     <script src="static/jspsych/jspsych.js"></script>
@@ -17,7 +17,7 @@
   </head>
   <body></body>
   <script>
-  
+  jsPsych.data.addProperties({test: 'sesgos'})
   var bienvenida = {
     type: "html-button-response",
     stimulus: "<font size=5.5><p>¡Bienvenido!</p><p>En la siguiente prueba podrás explorar con nosotros algunas propiedades de la percepción.</p>"+
@@ -270,7 +270,7 @@ var academia = {
                         headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'},
                         async:false,
-                        }); window.location = 'https://cerebrock.github.io/mindspace/static/despedida.html'},
+                        }); window.location = 'https:/ihum.ai'},
                         
   });
   //
