@@ -4,23 +4,22 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>App</title>
-
+  <title>HUMAI</title>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
   <!-- CSS  -->
+  <script src="https://kit.fontawesome.com/04d494b3e0.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <!--  Scripts-->
+  <link href="css/graph.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
 
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+<body>
 
-<body id="pg2">
-  <div id="particles-js"> </div>
+  <div id="particles-js"></div>
+
 
   <!--NAV-->
   <section id="Nav">
@@ -28,21 +27,23 @@
       <nav class="grey darken-3" role="naviga@tion">
         <div class="nav-wrapper">
           <a href="index.html" class="brand-logo left"> <img src="static/logos/A_f2_inv_2.png" width="25"
-              class="d-inline-block align-top" alt="LogoHumai">HUM<span>AI</span></a>
+              class="d-inline-block align-top" alt="LogoHumai">
+            HUM<span>AI</span></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#Courses">Courses</a></li>
-            <li><a href="index.html#Research">About</a></li>
-            <li><a href="index.html#Form">Contact</a></li>
-            <li><a href="#">ESP/ENG</a></li><i class="material-icons">translate</i>
+            <li><a href="#graph">Cursos</a></li>
+            <li><a href="#Research">Investigación</a></li>
+            <li><a href="#About">Nosotros</a></li>
+            <li><a href="#Industry">Industria</a></li>
+            <!--<li><a href="#">ESP/ENG</a></li><i class="material-icons">translate</i>-->
           </ul>
           <!--Responsive NAV-->
           <ul id="nav-mobile" class="side-nav">
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Courses<i
                   class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="#">Research</a></li>
+            <li><a href="#">Investigación</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Idea</a></li>
+            <li><a href="#">Mensaje</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
@@ -70,26 +71,32 @@
   <!--Footer-->
   <section id="Footer">
     <footer class="page-footer grey darken-3">
-      <div class="container">
+      <div class="container center-align">
         <div class="row center-align">
-          <div class="col s3 center-align">
-            <h3 class="white-text">Follow Us</h3>
-            <img src="static/logos/A_f2_inv_2.png" width="100" class="d-inline-block center-align" alt="LogoHumai"><br>
+          <div class="col s12 m4 center-align">
+            <div class="row">
+              <div class="col s12 m12">
+                <p class="center-align"> HUM<SPAN>AI</SPAN></p>
+              </div>
+              <div class="col s12 m12">
+                <a type="button" class="btn-floating btn-fb orange"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/HumaiInstituto" type="button blank" class="btn-floating btn-tw"><i
+                    class="fab fa-twitter orange center-align"></i></a>
+                <a href="https://www.linkedin.com/company/instituto-humai/" type="button"
+                  class="btn-floating btn-linkedin"><i class="fab fa-linkedin-in orange"></i></a>
+                <a href="https://github.com/institutohumai" type="button" class="btn-floating btn-git"><i
+                    class="fab fa-github orange"></i></a>
+                <a href="#" type="button" class="btn-floating btn-git"><i class="fab fa-whatsapp orange"></i></i></a>
+              </div>
+              <img src="static/logos/A_f2_inv_2.png" width="100" class="d-inline-block center-align"
+                alt="LogoHumai"><br>
+              <p class="center-align">© HUMAI 2020</p>
 
-            <p class="HI center-align"> HUM<SPAN>AI</SPAN></p><br>
-            <a type="button" class="btn-floating btn-fb orange"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/HumaiInstituto" type="button blank" class="btn-floating btn-tw"><i
-                class="fab fa-twitter orange center-align"></i></a>
-            <a href="https://www.linkedin.com/company/instituto-humai/" type="button"
-              class="btn-floating btn-linkedin"><i class="fab fa-linkedin-in orange"></i></a>
-            <a href="https://github.com/institutohumai" type="button" class="btn-floating btn-git"><i
-                class="fab fa-github orange"></i></a>
-            <a href="#" type="button" class="btn-floating btn-git"><i class="fab fa-whatsapp orange"></i></i></a>
-            <p class="center-align">© HUMAI 2020</p>
+            </div>
           </div>
-          <div class="col s2"></div>
+          <div class="col s1 m1"></div>
 
-          <div class="col s7">
+          <div id="Contacto" class="col s12 m7">
             <div class="row">
               <div class="col s12 center">
                 <h3>Contacto</h3>
@@ -125,7 +132,7 @@
                 </div>
                 <div class="row">
                   <div class="col s12 text-center">
-                    <input type="submit" value="SEND" class="btn btn-md orange">
+                    <input type="submit" value="Enviar" class="btn btn-md orange">
                   </div>
               </form>
             </div>
