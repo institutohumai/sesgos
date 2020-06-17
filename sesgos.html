@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Courses</title>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/graph.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!--  Scripts-->
+
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script type="text/javascript">
+    function expand(n) {
+      $('#modal' + n).modal('open')
+    }
+    $(document).ready(function () {
+      $('#graph').load('/static/diag3.svg');
+    });
+  </script>
+</head>
+
+<body id="pg2">
+  <div id="particles-js"> </div>
+
+  <!--NAV-->
+  <section id="Nav">
+    <div class="navbar-fixed ">
+      <nav class="grey darken-3" role="naviga@tion">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo left"> <img src="static/logos/A_f2_inv_2.png" width="25"
+              class="d-inline-block align-top" alt="LogoHumai">HUM<span>AI</span></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#Courses">Courses</a></li>
+            <li><a href="index.html#Research">About</a></li>
+            <li><a href="index.html#Form">Contact</a></li>
+            <li><a href="#">ESP/ENG</a></li><i class="material-icons">translate</i>
+          </ul>
+          <!--Responsive NAV-->
+          <ul id="nav-mobile" class="side-nav">
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Courses<i
+                  class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!--Home-->
+  <section id="Home">
+    <main role="main" class="center">
+      <h3 class="display-3"><img src='static/logos/A_f7.png' class="class=" width=100px></h3>
+      <h4>Sesgos</h4>
+    </main>
+  </section>
+
+  <div align='center' class="container">
+    <iframe src="http://ihum.ai/fluencias" width=1080 height=780 scrolling="no"></iframe>
+  </div>
+
+
+  <!--Footer-->
+  <section id="Footer">
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row center-align">
+          <div class="col s3 center-align">
+            <h3 class="white-text">Follow Us</h3>
+            <img src="static/logos/A_f2_inv_2.png" width="100" class="d-inline-block center-align" alt="LogoHumai"><br>
+
+            <p class="HI center-align"> HUM<SPAN>AI</SPAN></p><br>
+            <a type="button" class="btn-floating btn-fb orange"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/HumaiInstituto" type="button blank" class="btn-floating btn-tw"><i
+                class="fab fa-twitter orange center-align"></i></a>
+            <a href="https://www.linkedin.com/company/instituto-humai/" type="button"
+              class="btn-floating btn-linkedin"><i class="fab fa-linkedin-in orange"></i></a>
+            <a href="https://github.com/institutohumai" type="button" class="btn-floating btn-git"><i
+                class="fab fa-github orange"></i></a>
+            <a href="#" type="button" class="btn-floating btn-git"><i class="fab fa-whatsapp orange"></i></i></a>
+            <p class="center-align">© HUMAI 2020</p>
+          </div>
+          <div class="col s2"></div>
+
+          <div class="col s7">
+            <div class="row">
+              <div class="col s12 center">
+                <h3>Contacto</h3>
+              </div>
+              <form class="col s12">
+                <div class="row">
+                  <div placeholder="name" class="input-field col s6">
+                    <input id="name" id="first_name" type="text" class="validate">
+                    <label for="name">Name</label>
+                  </div>
+                  <div placeholder="last_name" class="input-field col s6">
+                    <input id="last_name" id="first_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div placeholder="Email" class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <form class="col s10">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Message</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="row">
+                  <div class="col s12 text-center">
+                    <input type="submit" value="SEND" class="btn btn-md orange">
+                  </div>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!--JS Particulas.js-->
+  <script src="https://kit.fontawesome.com/04d494b3e0.js" crossorigin="anonymous"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/particulas.js"></script>
+
+
+
+</body>
+
+</html>

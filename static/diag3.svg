@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 height="1150px" viewBox="0 0 693.615 684" >
+<style>
+    .small { font: Courier 14px sans-serif;}
+</style>
+<script>
+	setInterval(function() {document.querySelector("#c1").setAttribute("r",  Math.random() * (85 - 55) + 55);}, 850);
+	setInterval(function() {document.querySelector("#c2").setAttribute("r",  Math.random() * (85 - 55) + 55);}, 865);
+	setInterval(function() {document.querySelector("#c3").setAttribute("r",  Math.random() * (55 - 45) + 45);}, 867);
+	setInterval(function() {document.querySelector("#c4").setAttribute("r",  Math.random() * (55 - 45) + 45);}, 880);
+	setInterval(function() {document.querySelector("#c5").setAttribute("r",  Math.random() * (38 - 30) + 30);}, 800);
+	setInterval(function() {document.querySelector("#c6").setAttribute("r",  Math.random() * (40 - 35) + 35);}, 880);
+	setInterval(function() {document.querySelector("#c7").setAttribute("r",  Math.random() * (38 - 30) + 30);}, 810);
+	setInterval(function() {document.querySelector("#c8").setAttribute("r",  Math.random() * (38 - 30) + 30);}, 880);
+	setInterval(function() {document.querySelector("#c9").setAttribute("r",  Math.random() * (38 - 30) + 30);}, 820);
+	setInterval(function() {document.querySelector("#c10").setAttribute("r",  Math.random() * (38 - 30) + 30);}, 805);
+	setInterval(function() {document.querySelector("#c11").setAttribute("r",  Math.random() * (40 - 30) + 30);}, 850);
+	setInterval(function() {document.querySelector("#c12").setAttribute("r",  Math.random() * (40 - 30) + 30);}, 600);
+	setInterval(function() {document.querySelector("#c13").setAttribute("r",  Math.random() * (40 - 30) + 30);}, 700);
+	setInterval(function() {document.querySelector("#c14").setAttribute("r",  Math.random() * (40 - 30) + 30);}, 870);
+	setInterval(function() {document.querySelector("#c15").setAttribute("r",  Math.random() * (55 - 45) + 45);}, 880);
+	setInterval(function() {document.querySelector("#c16").setAttribute("r",  Math.random() * (60 - 48) + 48);}, 810);
+</script>
+
+Intro Python
+<g id='g1' onclick='expand(1)' style="pointer-events: bounding-box;">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="20.6462" y1="205.6143" x2="139.4724" y2="205.6143" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
+		<stop offset="0" style="stop-color:#FFD400"/>
+		<stop offset="1" style="stop-color:#EFA72B"/>
+	</linearGradient>
+	<circle id='c1' onclick='expand(1)' fill="url(#SVGID_1_)" stroke="#FEDC29" stroke-width="2" stroke-miterlimit="10" cx="74.635" cy="76.837" r="59.413"/>
+	<image width="7%" height="7%" xlink:href="/static/logos/1.png"  x=49 y=89></image>
+	<text fill="black" x=26 y=44 font-family="'Montserrat-Medium'" font-size="13">Introducción a</text>
+	<text id='py1t2' x=20 y=60 fill="black" font-family="'Montserrat-Medium'" font-size="13">la programación</text>
+	<text id='py1t3' x=35 y=78 fill="black" font-family="'Montserrat-Medium'" font-size="13">con Python</text>
+</g>
+
+IA
+<g id='g2' onclick='expand(2)' style="pointer-events: bounding-box;">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="542.3098" y1="741.0723" x2="661.136" y2="741.0723" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
+		<stop  offset="0" style="stop-color:#FCBE00"/>
+		<stop  offset="1" style="stop-color:#C20D0E"/>
+	</linearGradient>
+	<circle id='c2' onclick='expand(2)' fill="url(#SVGID_2_)" stroke="#E94E1B" stroke-width="2" stroke-miterlimit="10" cx="610.093" cy="598.501" r="59.413"/>
+	<image width="9%" height="9%" xlink:href="/static/logos/1.png" x='578' y='587'></image>
+	<text x='602' y='574' font-family="'Montserrat-Medium'">IA</text>
+</g>
+
+Neuro
+<g id='g3' onclick='expand(3)' style="pointer-events: bounding-box;">
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="33.5774" y1="725.2617" x2="146.7693" y2="725.2617" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
+	<stop  offset="0" style="stop-color:#FFEE31"/>
+	<stop  offset="1" style="stop-color:#F59B44"/>
+</linearGradient>
+<circle id='c3' onclick='expand(3)' fill="url(#SVGID_3_)" stroke="#F9B233" stroke-width="2" stroke-miterlimit="10" cx="594.281" cy="86.951" r="56.596"/>
+<image width="7%" height="7%" xlink:href="/static/logos/1.png"  x='569' y='75'></image>
+<text id='text3' x=571 y=70 font-family="'Montserrat-Medium'" font-size="14">Neuro</text>
+</g>
+
+Data Science
+<g id='g4' onclick='expand(4)' style="pointer-events: bounding-box;">
+<linearGradient id="SVGID_4_" class="MachLear" gradientUnits="userSpaceOnUse" x1="189.4163" y1="387.3594" x2="281.8025" y2="387.3594" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
+	<stop  offset="0" style="stop-color:#FECE5B"/>
+	<stop  offset="1" style="stop-color:#EC6E2C"/>
+</linearGradient>
+<circle id='c4' onclick='expand(4)' fill="url(#SVGID_4_)" stroke="#F39200" stroke-width="2" stroke-miterlimit="10" cx="256.38" cy="232.387" r="46.193"/>
+<image width="8%" height="8%" xlink:href="/static/logos/1.png"  x='227' y='237'></image>
+<text x=229 y=215 font-family="'Montserrat-Medium'" font-size="14">Análisis</text>
+<text x=225 y=231 font-family="'Montserrat-Medium'" font-size="14">de Datos</text>
+</g>
+
+Python + Ciencia
+<g id='g5' onclick='expand(5)' style="pointer-events: bounding-box;">
+<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="84.637" y1="306.3364" x2="148.9495" y2="306.3364" gradientTransform="matrix(-0.3674 -0.93 0.93 -0.3674 -125.1984 527.5216)">
+	<stop  offset="0" style="stop-color:#DE8A59"/>
+	<stop  offset="1" style="stop-color:#FFD300"/>
+</linearGradient>
+<circle id='c5' onclick='expand(5)' fill="url(#SVGID_5_)" stroke="#FFB10B" stroke-width="2" stroke-miterlimit="10" cx="116.793" cy="306.336" r="32.156"/>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png"  x=99 y=309></image>
+<text x=99 y=291 font-family="'Montserrat-Medium'" font-size="9">Python</text>
+<text x=90 y=305 font-family="'Montserrat-Medium'" font-size="11">+ Ciencia</text>
+</g>
+
+Pyton + Estadística
+<g id='g6' onclick='expand(6)' style="pointer-events: bounding-box;">
+<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="86.636" y1="223.3486" x2="150.9456" y2="223.3486" gradientTransform="matrix(-0.4232 -0.906 0.906 -0.4232 -33.3002 425.4981)">
+	<stop  offset="0" style="stop-color:#DE8A59"/>
+	<stop  offset="1" style="stop-color:#FFD300"/>
+</linearGradient>
+<circle id='c6' onclick='expand(6)' fill="url(#SVGID_6_)" stroke="#FFB10B" stroke-width="2" stroke-miterlimit="10" cx="118.791" cy="223.349" r="32.155"/>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=100 y=225></image>
+<text x=102 y=206 font-family="'Montserrat-Medium'" font-size="9">Python</text>
+<text x=87 y=220 font-family="'Montserrat-Medium'" font-size="10">+ Estadística</text>
+</g>
+
+Python + Web
+<g id='g7' onclick='expand(7)' style="pointer-events: bounding-box;">
+<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="215.7532" y1="104.0933" x2="280.0647" y2="104.0933" gradientTransform="matrix(0.1584 -0.9874 0.9874 0.1584 105.8604 332.3831)">
+	<stop  offset="0" style="stop-color:#DE8A59"/>
+	<stop  offset="1" style="stop-color:#FFD300"/>
+</linearGradient>
+<circle id='c7' onclick='expand(7)' fill="url(#SVGID_7_)" stroke="#FFB10B" stroke-width="2" stroke-miterlimit="10" cx="247.907" cy="104.093" r="32.156"/>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=230 y=107></image>
+<text x=231 y=90 font-family="'Montserrat-Medium'" font-size="9">Python</text>
+<text x=228 y=103 font-family="'Montserrat-Medium'" font-size="12">+ Web</text>
+</g>
+
+Python + Data
+<g id='g8' onclick='expand(8)' style="pointer-events: bounding-box;">
+<circle id='c8' onclick='expand(8)' fill="url(#SVGID_8_)" stroke="#FFB10B" stroke-width="2" stroke-miterlimit="10" cx="172.702" cy="157.589" r="32.155"/>
+<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="68.3752" y1="410.0957" x2="132.6863" y2="410.0957" gradientTransform="matrix(-0.7184 -0.6956 -0.6956 0.7184 530.1862 -67.0945)">
+	<stop  offset="0" style="stop-color:#DE8A59"/>
+	<stop  offset="1" style="stop-color:#FFD300"/>
+</linearGradient> 
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=154 y=159></image>
+<text x=155 y=142 font-family="'Montserrat-Medium'" font-size="9">Python</text>
+<text x=156 y=155 font-family="'Montserrat-Medium'" font-size="9">+ Data</text>
+</g>
+
+Python + Viz
+<g id='g9' onclick='expand(9)' style="pointer-events: bounding-box;">
+<circle id='c9' onclick='expand(9)' fill="url(#SVGID_9_)" stroke="#FFB10B" stroke-width="2" stroke-miterlimit="10" cx="347.374" cy="117.483" r="32.155"/>
+<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="315.2185" y1="117.4834" x2="379.5276" y2="117.4834" gradientTransform="matrix(-0.6567 -0.7541 0.7541 -0.6567 486.9129 456.5973)">
+	<stop  offset="0" style="stop-color:#DE8A59"/>
+	<stop  offset="1" style="stop-color:#FFD300"/>
+</linearGradient>
+<image width="4%" height="4%" xlink:href="/static/logos/1.png"  x=332 y=122></image>
+<text x=331 y=105 font-family="'Montserrat-Medium'" font-size="9">Python</text>
+<text x=333 y=119 font-family="'Montserrat-Medium'" font-size="12">+ Viz</text>
+</g>
+
+Neuro + IA
+<g id='g10' onclick='expand(10)' style="pointer-events: bounding-box;">
+<circle id='c10' onclick='expand(10)' fill="url(#SVGID_10_)" stroke="#F9B233" stroke-width="2" stroke-miterlimit="10" cx="598" cy="267" r="32.155"/>
+<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="467.0774" y1="499.584" x2="543.6194" y2="499.584" gradientTransform="matrix(0.0247 0.9997 0.9997 -0.0247 86.5588 -229.91)">
+	<stop  offset="0" style="stop-color:#FEC917"/>
+	<stop  offset="1" style="stop-color:#E89245"/>
+</linearGradient>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=579 y=271>
+</image>
+<text x=582 y=253 font-family="'Montserrat-Medium'" font-size="10">Neuro</text>
+<text x=583 y=268 font-family="'Montserrat-Medium'" font-size="13">+ IA</text>
+</g>
+
+NLP
+<g id='g11' onclick='expand(11)' style="pointer-events: bounding-box;">
+<circle id='c11' onclick='expand(11)' fill="url(#SVGID_12_)" stroke="#D0521B" stroke-width="2" stroke-miterlimit="10" cx="439" cy="550" r="32.155"/>
+<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="306.5085" y1="819.9805" x2="370.8181" y2="819.9805" gradientTransform="matrix(0.1114 0.9938 0.9938 -0.1114 -416.2554 307.3628)">
+	<stop  offset="0" style="stop-color:#FBBE60"/>
+	<stop  offset="1" style="stop-color:#BF472E"/>
+</linearGradient>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=420 y=543></image>
+<text x=428 y=540 font-family="'Montserrat-Medium'" font-size="10">NLP</text>
+</g>
+
+Cloud
+<g id='g12' onclick='expand(12)' style="pointer-events: bounding-box;">
+<circle id='c12' onclick='expand(12)' fill="url(#SVGID_11_)" stroke="#D0521B" stroke-width="2" stroke-miterlimit="10" cx="340.902" cy="571.246" r="32.155"/>
+<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="314.4202" y1="723.0303" x2="378.7351" y2="723.0303" gradientTransform="matrix(0.1114 0.9938 0.9938 -0.1114 -416.2554 307.3628)">
+	<stop  offset="0" style="stop-color:#FBBE60"/>
+	<stop  offset="1" style="stop-color:#BF472E"/>
+</linearGradient>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=322 y=564></image>
+<text x=325 y=560 font-family="'Montserrat-Medium'" font-size=10>Cloud</text>
+</g>
+
+CV
+<g id='g13' onclick='expand(13)' style="pointer-events: bounding-box;">
+<circle id='c13' onclick='expand(13)' fill="url(#SVGID_13_)" stroke="#D0521B" stroke-width="2" stroke-miterlimit="10" cx="525" cy="501" r="32.155"/>
+<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="275.5579" y1="910.4854" x2="339.8679" y2="910.4854" gradientTransform="matrix(0.1114 0.9938 0.9938 -0.1114 -416.2554 307.3628)">
+	<stop  offset="0" style="stop-color:#FBBE60"/>
+	<stop  offset="1" style="stop-color:#BF472E"/>
+</linearGradient>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=507 y=497></image>
+<text x=517 y=492 font-family="'Montserrat-Medium'" font-size="11.3">CV</text>
+</g>
+
+Audio
+<g id='g14' onclick='expand(14)' style="pointer-events: bounding-box;">
+<circle id='c14' onclick='expand(14)' fill="url(#SVGID_14_)" stroke="#D0521B" stroke-width="2" stroke-miterlimit="10" cx="582.84" cy="443.935" r="32.155"/>
+<linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="214.8557" y1="977.6387" x2="279.1697" y2="977.6387" gradientTransform="matrix(0.1114 0.9938 0.9938 -0.1114 -416.2554 307.3628)">
+	<stop  offset="0" style="stop-color:#FBBE60"/>
+	<stop  offset="1" style="stop-color:#BF472E"/>
+</linearGradient>
+<image width="5%" height="5%" xlink:href="/static/logos/1.png" x=565 y=436></image>
+<text x=568 y=432 font-family="'Montserrat-Medium'" font-size="10">Audio</text>
+</g>
+
+Deep Learning
+<g id='g15' onclick='expand(15)' style="pointer-events: bounding-box;">
+<circle id='c15' onclick='expand(15)' fill="url(#SVGID_15_)" stroke="#F39200" stroke-width="2" stroke-miterlimit="10" cx="437" cy="406" r="46.193"/>
+<linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="363.3508" y1="571.3477" x2="455.7375" y2="571.3477" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
+	<stop  offset="0" style="stop-color:#F9AE00"/>
+	<stop  offset="1" style="stop-color:#E94E1D"/>
+</linearGradient>
+<image width="7%" height="7%" xlink:href="/static/logos/1.png" x=411 y=410></image>
+<text x=417 y=386 font-family="'Montserrat-Medium'" font-size="14">Deep </text>
+<text x=405 y=403 font-family="'Montserrat-Medium'" font-size="14">Learning</text>
+</g>
+
+Machine Learning
+<g id='g16' onclick='expand(16)' style="pointer-events: bounding-box;">
+<circle id='c16' onclick='expand(16)' fill="url(#SVGID_16_)" stroke="#F39200" stroke-width="2" stroke-miterlimit="10" cx="354" cy="310" r="46.193"/>
+<linearGradient id="SVGID_16_" gradientUnits="userSpaceOnUse" x1="269.8513" y1="488.3477" x2="362.2375" y2="488.3477" gradientTransform="matrix(0 1 1 0 -130.9792 -3.2219)">
+	<stop  offset="0" style="stop-color:#FCC24C"/>
+	<stop  offset="1" style="stop-color:#E9531D"/>
+</linearGradient>
+<image width="8%" height="8%" xlink:href="/static/logos/1.png"  x='325' y='312'></image>
+<text x='325' y='290' font-family="'Montserrat-Medium'" font-size="14">Machine</text>
+<text x='324' y='307' font-family="'Montserrat-Medium'" font-size="14">Learning</text>
+</g>
+
+
+<g id="Capa_3">
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M123,117.875c3.066-0.625,6.679,1.826,9.074,3.484
+		c2.639,1.827,4.881,3.92,6.637,6.621c1.416,2.178,2.86,4.63,3.62,7.128c-1.479,0.208-3.104-0.849-4.423-1.333
+		c1.639,0.194,3.137,1.333,4.754,1.681c0.367-1.324,0.44-4.367,1.588-5.081"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M140.25,85.125c6.928-2.776,13.5-5.094,20.928-5.873
+		c4.669-0.489,9.438-0.656,14.104-0.04c4.813,0.635,9.294,2.181,13.95,3.528c7.101,2.053,14.455,3.253,21.811,3.259
+		c-2.106-0.247-5.563-1.246-6.269-3.729c2.104,2.151,5.103,2.573,7.258,4.352c-1.403,1.365-4.029,2.075-4.653,4.377"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M87,139c-0.962,1.559-0.868,3.856-0.877,5.605
+		c-0.025,4.393,0.441,8.289,1.628,12.531c1.758,6.291,4.636,12.307,7.346,18.247c1.967,4.312,3.985,8.615,5.896,12.856
+		c-1.859-0.634-3.499-2.203-5.07-3.333c2.065,1.082,3.754,3.134,5.805,4.085c0.133-1.827,0.288-3.277,1.022-4.993"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M86.248,243.773c-6.726,4.815-7.75,14.324-4.12,21.278
+		c1.554,2.977,3.647,5.56,5.49,8.347c0.53,0.805,1.026,1.739,1.723,2.367c0.72-1.783,0.856-3.877,1.672-5.587
+		c-1.021,2.29-1.7,4.737-0.954,7.203c-0.945,0.103-4.266-0.944-4.687-1.607"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M276,80.5c3.592-5.396,11.861-7.19,17.867-7.63
+		c7.877-0.578,17.221,0.631,23.646,5.658c3.487,2.729,4.949,5.781,6.859,9.449c-2.016,0.067-4.391-2.589-6.205-3.45
+		c0.912,0.953,4.267,3.627,5.746,3.111c1.47-0.512,0.957-4.74,1.961-4.888"/>
+	<!--path fill="none" stroke="#936037" stroke-miterlimit="10" d="M325.625,147.5c-1.706,9.892-12.15,17.429-19.033,23.762
+		c-4.979,4.581-10.496,8.607-15.354,13.302c-0.015-1.763,0.639-3.492,0.634-5.296c0.184,1.155,0.247,2.435,0.012,3.585
+		c-0.172,0.845-0.747,1.674-0.723,2.512c1.49-0.265,3.939-0.974,5.214-1.74"/-->
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M255.5,140c1.3,8.979,3.36,17.651,3.853,26.758
+		c0.162,2.988,0.039,6.005,0.153,8.994c0.046,1.184,0.239,2.544,0.102,3.712c-1.077-0.938-2.16-1.956-3.193-2.926
+		c1.303,1.331,2.65,3.156,4.057,4.306c0.588-1.839,1.251-3.581,2.278-4.969"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M197.875,180.958c-0.379-0.136,9.693,5.955,14.34,10.352
+		c1.204,1.141,2.333,2.521,3.319,3.752c-2.01,0.084-3.924-0.966-5.885-1.163c1.934,0.774,5.033,2.235,7.095,2.064
+		c-0.35-1.287-1.117-2.55-1.728-3.754c-0.191-0.38-0.855-2.076-0.908-1.702"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M156.625,229.5c13.409,0,27.015-0.595,40.343,0.128
+		c-1.331-0.152-2.524-0.952-3.811-1.265c1.896,1.07,4.396,0.289,6.216,1.424c-1.644,0.435-3.303,0.518-4.999,1.213"/>
+	<!--path fill="none" stroke="#936037" stroke-miterlimit="10" d="M150.25,299.25c1.525-0.073,2.84-1.028,4.094-1.798
+		c2.366-1.453,4.711-2.953,7.042-4.46c5.726-3.703,11.176-7.814,16.758-11.725c6.295-4.411,12.819-8.462,17.888-14.276
+		c2.032-2.33,4.358-4.233,6.423-6.5c-1.744,0.651-4.045,1.334-5.578,2.239c1.352-0.373,2.803-1.374,4.009-2.108
+		c0.791-0.481,1.699-1.472,2.603-1.608c-0.767,1.746-1.981,3.358-2.739,5.111"/-->
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M297.875,259.25c5.528,5.717,12.868,9.521,18.836,14.758
+		c-3.834-0.014-7.698-1.814-11.551-2.245c3.497,1.585,8.122,2.542,11.952,2.078c0.245-1.989-0.955-4.399-1.369-6.326
+		c-0.351-1.627-0.492-3.604-1.219-5.103c-0.04,0.115,0.005,0.224-0.024,0.336"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M393.926,349.163c5.528,5.717,12.869,9.521,18.836,14.758
+		c-3.834-0.014-7.698-1.813-11.551-2.245c3.498,1.585,8.123,2.542,11.952,2.078c0.245-1.988-0.954-4.398-1.368-6.326
+		c-0.352-1.627-0.493-3.604-1.22-5.103c-0.04,0.114,0.005,0.224-0.024,0.336"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M471.244,451.038c0-0.198,0-0.396,0-0.595
+		c-0.147,9.289,7.375,16.977,13.896,22.819c2.667,2.392,6.163,4.322,8.602,6.874c-1.46,0.255-3.313-1.516-4.577-2.038
+		c1.406,1.179,4.382,3.196,6.32,2.91c0.166-1.955-0.838-3.61-1.114-5.472"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M442.869,459.663c5.199,6.403,6.5,15.753,5.599,23.771
+		c-0.9,8.015-3.359,16.603-5.981,24.248c-0.825,2.407-2.006,4.64-2.991,6.955c-0.844-2.86,0.111-6.035-0.979-8.977
+		c-0.115,1.713,0.847,3.715,0.957,5.501c0.104,1.688-0.162,3.466,0.058,5.128c1.097-0.162,1.993-1.557,2.814-2.234
+		c0.88-0.725,1.777-1.467,2.774-2.019"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M494.244,408.663c4.495-1.438,10.188-0.432,14.744-0.013
+		c7.785,0.715,15.318,1.903,22.786,4.261c6.299,1.988,12.674,4.281,17.696,8.619c0.177-1.736-2.428-4.732-3.568-5.854
+		c0.76,2.401,4.041,3.894,4.361,6.513c-2.264-1.039-4.374-2.326-6.771-2.151"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M486.849,367.876c-1.761-1.724,4.71-10.181,5.214-10.957
+		c5.617-8.655,12.623-16.452,19.757-23.613c11.303-11.343,23.902-21.779,38.333-28.185c4.117-1.827,8.384-3.074,12.106-5.366
+		c-2.326,0.664-5.014,0.482-7.43,0.477c3.365,0.007,7.331-1.939,10.492-1.447c-2.368,2.432-4.213,5.426-6.398,8.018
+		c0.243-0.076,0.354-0.222,0.552-0.393"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M598.507,153.469c-0.354,0.427-0.178,3.662-0.19,4.625
+		c-0.081,6.164-0.325,12.316-0.39,18.481c-0.068,6.418,0.514,12.603,0.876,18.965c0.118,2.042,0.074,4.262,0.691,6.137
+		c1.025-7.282,3.032-14.947,4.656-22.156c0.131,3.885-1.741,8.172-2.644,11.711c-0.969,3.797-1.881,7.778-2.471,11.745
+		c-2.247-5.095-3.067-12.2-6.131-16.552c-0.256-0.219,0.002,0.095,0.012,0.217"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M414.494,453.913c-8.057,5.266-14.71,12.282-21.446,19.175
+		c-11.874,12.146-21.729,25.775-31.206,39.823c-2.654,3.934-5.075,8.019-6.636,12.491c-0.596,1.707-1.232,3.714-2.174,5.171
+		c-0.146-1.681-0.454-4.475,0.129-5.964c0.729,2.214-0.033,5.12-0.327,7.418c1.182-1.035,2.391-2.24,3.493-3.28"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M468.494,574.913c3.899,4.256,9.996,6.211,15.472,7.543
+		c9.762,2.375,20.014,2.537,30.012,2.265c7.184-0.195,15.341-0.492,22.307-2.475c-1.394-0.398-2.354-1.749-3.884-1.64
+		c1.606,0.922,3.307,1.067,5.08,1.332c-0.896,1.867-3.284,3.051-3.484,5.475"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M546.661,540.747c3.714,2.835,7.22,5.671,11.199,8.146
+		c1.352,0.842,3.587,1.8,4.286,3.327c-2.867,0.284-5.881-0.665-8.657-1.189c1.69,0.44,6.854,1.964,8.521,0.896
+		c1.314-0.844,1.166-5.472,1.177-6.955c0.192,0.059,0.307,0.178,0.475,0.273"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M360.661,611.58c10.162,10.008,24.74,13.515,38.467,15.834
+		c22.177,3.748,44.297,1.057,65.938-4.289c22.063-5.449,44.363-10.854,67.146-7.037c-1.214-0.077-3.683-1.215-4.891-1.814
+		c3.047,0.597,6.103,1.65,9.163,2.349c-2.182,0.688-7.188,1.88-7.657,4.626"/>
+	<path fill="none" stroke="#936037" stroke-miterlimit="10" d="M606.661,472.746c4.827,4.229,9.166,8.52,10.515,15.115
+		c2.012,9.844-3.653,16.905-7.482,25.35c-1.869,4.122-5.014,12.543-3.356,16.905c-0.351-1.515-0.526-3.899-1.482-5.045
+		c0.038,2.103,1.396,4.178,2.012,6.169c0.868-1.482,1.684-3.026,3.297-3.993"/>
+</g>
+</svg>

@@ -1,0 +1,44 @@
+/*GRAFO*/
+
+
+circle:hover {
+  stroke: #000000;
+  stroke-width: 1px;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+
+//g:hover {
+  transform: scale(1.2) translateX(-1%) translateY(-1%);
+  -moz-transform: scale(1.2) translateX(-1%) translateY(-1%);
+  -webkit-transform: scale(1.2) translateX(-1%) translateY(-1%);
+  transition: all .4s ease-in-out;
+}
+
+circle {
+  transition: r 3s;
+}
+
+text {
+  fill: black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+path {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 3500;
+  animation: dash 30s linear forwards infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
